@@ -18,7 +18,7 @@ M.config = {
     days_remaining_str = function(ctx)
       return {
         text = ctx.item.days_remaining_str,
-        hl = "TodoBg" .. "WARN"
+        hl = "TodoFg" .. "WARN"
       }
     end,
   },
